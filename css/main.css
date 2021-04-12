@@ -6,6 +6,7 @@ html {
   padding-left: 1rem;
   padding-right: 1rem;
   border: 2px;
+  line-height: 1.3em;
 }
 
 *,
@@ -23,7 +24,6 @@ article {
   border-color: #999;
   border-width: 1px;
   margin: 0 0 1.3rem;
-  padding: 0;
 }
 
 article header {
@@ -34,7 +34,7 @@ article header {
 }
 
 article h1 {
-  margin: .5em;
+  margin: 1em;
 }
 
 article p {
@@ -42,21 +42,16 @@ article p {
 }
 
 article header p {
-  margin-top: -1.3rem;
+  margin-top: -1rem;
   font-style: italic;
 }
 
 article ol {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr 1fr;
 }
 
 .quote {
-  margin: 1em;
+  margin: 0;
 }
 
 blockquote {
