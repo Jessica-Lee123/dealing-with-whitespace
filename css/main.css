@@ -27,11 +27,11 @@ article header {
 }
 
 article h1 {
-  margin: 0;
+  margin: .5em;
 }
 
 article p {
-  margin: 0;
+margin: 1em;
 }
 
 article header p {
@@ -40,9 +40,7 @@ article header p {
 }
 
 article ol {
-  margin: 0;
 }
-
 .quote {
   margin: 1em;
 }
