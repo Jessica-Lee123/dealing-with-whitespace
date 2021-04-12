@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  color: #555;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+header p {
+  font-style: italic;
+}
+
+header p > quote {
+  color: #999;
+
+}
