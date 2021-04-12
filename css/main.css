@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
-  font-weight: normal;
+  font-weight: lighter;
   color: #222;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -17,6 +17,7 @@ html {
 
 body {
   margin: 0;
+  margin-bottom: 1em;
 }
 
 article {
@@ -34,11 +35,11 @@ article header {
 }
 
 article h1 {
-  margin: 1em;
+  margin-top: 1em;
 }
 
 article p {
-  margin: 1em;
+  margin-top: 1em;
 }
 
 article header p {
@@ -47,7 +48,7 @@ article header p {
 }
 
 article ol {
-  margin: 0;
+  padding-left: 1rem;
 }
 
 .quote {
