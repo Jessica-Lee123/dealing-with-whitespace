@@ -40,7 +40,9 @@ article header p {
 }
 
 article ol {
+  margin: 0;
 }
+
 .quote {
   margin: 1em;
 }
